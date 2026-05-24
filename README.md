@@ -8,6 +8,12 @@ The owned context layer beneath your AI tools.
 
 ---
 
+## Read first
+
+**[`PRINCIPLES.md`](PRINCIPLES.md)** — the ten principles that govern the Context Architecture System. The rest of this repository is in service of them.
+
+---
+
 ## What this is
 
 A minimal, Git-tracked folder structure for keeping your business context in files you own. No app. No database. No vendor lock-in.

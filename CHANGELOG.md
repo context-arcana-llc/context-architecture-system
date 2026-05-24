@@ -7,6 +7,18 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.3.0] — 2026-05-24
+
+### Added
+
+- `PRINCIPLES.md` — the ten principles that govern the Context Architecture System. This is the first canonical, citable publication of the framework's principles. References by number ("CAS Principle 5") are stable within v0.x across patch and minor releases. The website's three high-level commitments (data ownership, replaceability, LLM-agnostic) map to subsets of these ten.
+
+### Changed
+
+- `README.md` now points to `PRINCIPLES.md` prominently near the top as the recommended first read.
+
+---
+
 ## [0.2.0] — 2026-05-24
 
 ### Added
