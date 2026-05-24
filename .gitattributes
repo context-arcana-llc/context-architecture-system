@@ -1,0 +1,29 @@
+# Normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Binary files — no line ending normalization, no diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tgz binary
+*.7z binary
+*.mp4 binary
+*.mov binary
+*.mp3 binary
+*.wav binary
+*.ico binary
+*.psd binary
+*.ai binary
+*.sketch binary
+*.fig binary
+*.xls binary
+*.xlsx binary
+*.doc binary
+*.docx binary
+*.ppt binary
+*.pptx binary
