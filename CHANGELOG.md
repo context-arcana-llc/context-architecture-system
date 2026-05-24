@@ -7,6 +7,15 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.1.1] — 2026-05-24
+
+### Fixed
+
+- **Critical:** Secret-scanning hooks silently skipped every text file. The `is_binary()` check in `.githooks/pre-commit` used `$'\x00'` to detect NUL bytes, but bash strings cannot contain NUL bytes — the expression expanded to an empty string, so `grep -q ''` matched every non-empty file and the loop treated every text file as binary. The scanner printed its green success message but never actually scanned anything. Replaced with `grep -I`'s built-in binary detection. **Anyone using v0.1.0 should upgrade immediately.**
+- Both hooks now strip trailing carriage returns from filenames returned by `git diff` on Windows (`tr -d '\r'`). Defensive fix; the critical bug above had masked this.
+
+---
+
 ## [0.1.0] — 2026-05-24
 
 ### Added

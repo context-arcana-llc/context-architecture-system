@@ -15,7 +15,7 @@ NC=$'\033[0m'
 # mapfile requires bash 4.0+; macOS ships bash 3.2, so use a while-loop instead.
 FILES=()
 while IFS= read -r f; do FILES+=("$f"); done \
-  < <(git diff --cached --name-only --diff-filter=ACM)
+  < <(git diff --cached --name-only --diff-filter=ACM | tr -d '\r')
 
 if [ ${#FILES[@]} -eq 0 ]; then
   exit 0
@@ -45,7 +45,10 @@ FAIL=0
 REPORT=""
 
 is_binary() {
-  LC_ALL=C head -c 8192 "$1" 2>/dev/null | grep -q $'\x00'
+  # $'\x00' expands to an empty string in bash (NUL bytes can't live in
+  # bash strings), so the previous check matched every non-empty file and
+  # silently skipped all text. Use grep -I's built-in binary detection.
+  ! LC_ALL=C grep -Iq '' "$1" 2>/dev/null
 }
 
 for f in "${FILES[@]}"; do
