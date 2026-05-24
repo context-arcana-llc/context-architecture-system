@@ -31,6 +31,8 @@ A minimal, Git-tracked folder structure for keeping your business context in fil
 ## Quick start
 
 > **New to Git?** See [`INSTALL.md`](INSTALL.md) for a step-by-step walkthrough — including a no-Git path that gets you started in about 3 minutes.
+>
+> **Want to see what populated context looks like first?** Browse [`examples/riverstone-coffee/`](examples/riverstone-coffee/) — a fictional small business with every major folder filled in.
 
 1. **Use this template** — click "Use this template" on GitHub, or clone and re-initialize
 2. **Install the git hooks** (one-time, per clone) — run `bash setup.sh` (macOS / Linux) or `.\setup.ps1` (Windows PowerShell). Or do it manually:

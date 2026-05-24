@@ -7,6 +7,20 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.2.0] — 2026-05-24
+
+### Added
+
+- `examples/riverstone-coffee/` — a fully populated worked example of CAS in use, modeled on a fictional small-batch coffee roastery. Demonstrates `CONTEXT.md`, master index, brand voice, founding story, account inventory, retail and wholesale offers, multi-step workflow, decision record, and prompt card. Cross-references between files show how a populated context hangs together.
+- `examples/README.md` — explains what the example is, how to read it, and how to delete the folder when starting fresh.
+
+### Changed
+
+- `README.md` Quick Start now points to the examples folder as the recommended first stop for new users.
+- `INSTALL.md` Path 1 includes browsing the example as an optional second step and notes when to delete it.
+
+---
+
 ## [0.1.1] — 2026-05-24
 
 ### Fixed

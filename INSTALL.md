@@ -10,8 +10,10 @@ No Git. No terminal. No setup.
 
 1. On GitHub, click the green **"Code"** button → **"Download ZIP"**
 2. Unzip the folder somewhere you'll remember (e.g., your Documents)
-3. Open `CONTEXT.md` in any text editor and replace the placeholders with your information
-4. Open `SETUP_PROMPT.md`, copy its contents, and paste them into a new conversation with Claude, ChatGPT, Gemini, or any AI assistant
+3. **Optional but recommended:** Browse `examples/riverstone-coffee/` to see what filled-in context looks like
+4. Open `CONTEXT.md` in any text editor and replace the placeholders with your information
+5. Open `SETUP_PROMPT.md`, copy its contents, and paste them into a new conversation with Claude, ChatGPT, Gemini, or any AI assistant
+6. When you're ready to start fresh, delete the `examples/` folder
 
 That's it. You have a Context Architecture System. No version history, but it works.
 
