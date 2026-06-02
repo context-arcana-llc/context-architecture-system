@@ -29,3 +29,10 @@ jobs:
       - name: Validate Riverstone Coffee example
         run: node bin/cas.js validate ../examples/riverstone-coffee
         working-directory: cli
+
+      - name: Export Riverstone Coffee example (all adapters)
+        run: |
+          for adapter in claude gpt gemini cursor generic; do
+            node bin/cas.js export $adapter ../examples/riverstone-coffee
+          done
+        working-directory: cli

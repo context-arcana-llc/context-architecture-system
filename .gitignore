@@ -21,3 +21,10 @@ ehthumbs.db
 *.tmp
 *.bak
 ~$*
+
+# Generated exports — run cas export to regenerate
+exports/
+
+# Node
+node_modules/
+cli/node_modules/
