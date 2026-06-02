@@ -7,6 +7,29 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.6.0] — 2026-06-02
+
+### Added
+
+- `cas export <adapter> [path]` — compiles a CAS shell into a single formatted document for a specific AI tool. Output is written to `exports/<adapter>.md` inside the shell.
+- `cli/src/adapters/claude.js` — Claude adapter, 150,000 token budget. Formatted for Claude Project Instructions or API system prompt.
+- `cli/src/adapters/gpt.js` — GPT adapter, 50,000 token budget. Formatted for Custom GPT instructions or API system message.
+- `cli/src/adapters/gemini.js` — Gemini adapter, 200,000 token budget. Formatted for Google AI Studio system instructions or Gemini API.
+- `cli/src/adapters/cursor.js` — Cursor adapter, 10,000 token budget. Produces `.cursorrules`-compatible output.
+- `cli/src/adapters/generic.js` — Generic adapter, 100,000 token budget. Works with any tool.
+- `cli/src/adapters/base.js` — Shared context loader. Reads all `context/` sections in priority order and loads `shell/` layer for commercial shells.
+- Context condensation — sections are loaded in priority order (`01_identity` first, `99_archive` last) and dropped when the adapter's token budget is exceeded.
+- `docs/export-guide.md` — full reference for `cas export`, all adapters, token budgets, and section priority.
+- `docs/portability-guide.md` — explains the portability promise, how to switch between AI tools, and what falls outside CAS portability guarantees.
+
+### Changed
+
+- `cli/bin/cas.js` — updated entry point to route `cas export` command.
+- `.github/workflows/validate.yml` — CI now runs all five export adapters against the Riverstone Coffee example on every push.
+- `.gitignore` — added `exports/` (generated files) and `node_modules/`.
+
+---
+
 ## [0.5.0] — 2026-06-01
 
 ### Added

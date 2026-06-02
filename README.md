@@ -1,4 +1,4 @@
-# Context Architecture System™ — v0.5.0
+# Context Architecture System™ — v0.6.0
 
 The owned context layer beneath your AI tools.
 
@@ -110,6 +110,13 @@ The included git hooks scan staged content and refuse anything that looks like a
 Install once with `git config core.hooksPath .githooks`. Binary files (images, PDFs) are skipped by the scanner.
 
 ---
+
+## Documentation
+
+| Guide | What it covers |
+|---|---|
+| [`docs/export-guide.md`](docs/export-guide.md) | How to use `cas export` and each adapter |
+| [`docs/portability-guide.md`](docs/portability-guide.md) | What portability means and how to move between tools |
 
 ## Framework documentation
 
