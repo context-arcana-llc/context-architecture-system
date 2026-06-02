@@ -1,4 +1,4 @@
-# Context Architecture System™ — v0.1 Starter Kit
+# Context Architecture System™ — v0.4.0
 
 The owned context layer beneath your AI tools.
 
@@ -46,7 +46,7 @@ A minimal, Git-tracked folder structure for keeping your business context in fil
    git config core.hooksPath .githooks
    chmod +x .githooks/pre-commit .githooks/pre-push  # macOS / Linux only
    ```
-3. **Fill in `CONTEXT.md`** — the machine-readable summary of your context
+3. **Fill in `CONTEXT.md`** — update the YAML frontmatter at the top with your name, type (`personal`, `business`, or `commercial`), domain, and today's date
 4. **Activate with your AI** — paste the contents of `SETUP_PROMPT.md` into a new conversation
 5. **Start adding context** — drop files into the appropriate `context/` subfolder
 
@@ -68,6 +68,19 @@ A minimal, Git-tracked folder structure for keeping your business context in fil
 | `context/09_outputs/` | Notable AI outputs worth keeping |
 | `context/99_archive/` | Retired content — kept for reference |
 | `templates/` | Blank templates for new context entries |
+
+---
+
+## Specification
+
+The `spec/` directory contains the formal CAS specifications. These define what a valid shell looks like and are the basis for the `cas validate` command (coming in v0.5.0).
+
+| Document | What it defines |
+|---|---|
+| [`spec/shell-body.md`](spec/shell-body.md) | The Shell/Body model — personal, business, and commercial shell types |
+| [`spec/manifest-schema.md`](spec/manifest-schema.md) | YAML frontmatter schema for `CONTEXT.md` |
+| [`spec/required-files.md`](spec/required-files.md) | Which files and directories must be present in a valid shell |
+| [`spec/commercial-shell.md`](spec/commercial-shell.md) | The `shell/` directory structure for commercial shells |
 
 ---
 
