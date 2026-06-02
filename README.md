@@ -29,7 +29,7 @@ A minimal, Git-tracked folder structure for keeping your business context in fil
 | Layer | License |
 |---|---|
 | Repo templates and starter kit | Apache 2.0 |
-| Framework documentation | CC BY-SA 4.0 |
+| Framework documentation | CC BY 4.0 |
 | "Context Architecture System™" and "Context Arcana™" | Trademark — Context Arcana LLC |
 
 ---
