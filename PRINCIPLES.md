@@ -80,6 +80,6 @@ A specific principle is cited by number: "CAS Principle 5." The numbering is sta
 
 ## License
 
-This document is part of the Context Architecture System™ framework documentation, © 2026 Context Arcana LLC, licensed under CC BY-SA 4.0. See [`LICENSE-DOCS.md`](LICENSE-DOCS.md) for full terms.
+This document is part of the Context Architecture System™ framework documentation, © 2026 Context Arcana LLC, licensed under CC BY 4.0. See [`LICENSE-CONTENT`](LICENSE-CONTENT) for full terms.
 
-"Context Architecture System™" and "Context Arcana™" are trademarks of Context Arcana LLC and are not included in the CC BY-SA grant.
+"Context Architecture System™" and "Context Arcana™" are trademarks of Context Arcana LLC and are not included in the CC BY grant.
