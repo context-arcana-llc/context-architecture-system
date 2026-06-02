@@ -29,7 +29,7 @@ This is a **context repository**, not a software project. There is no build step
 
 ## Writing style for context files
 
-- Plain Markdown only — no MDX, no front matter unless the folder README specifies otherwise
+- Plain Markdown only — no MDX, no YAML frontmatter except in `CONTEXT.md`
 - Prefer tables for structured data
 - Use ISO dates (YYYY-MM-DD)
 - No inline secrets, even as placeholder examples
