@@ -7,6 +7,19 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.6.2] — 2026-06-02
+
+### Added
+
+- `templates/shell-license.md` — ready-to-use commercial shell license template. Single-user, non-transferable grant. Client owns `context/` unconditionally. Restricts redistribution of `shell/` contents. 30-day cure period on termination. Warranty disclaimed. Replace [BRACKETED] placeholders and save as `SHELL-LICENSE.md` in each commercial shell repo.
+- `spec/commercial-license.md` — defines the two-layer licensing model (CAS open standard + commercial shell license), client rights and restrictions, attribution rules, team licensing guidance, and update policy notes.
+
+### Changed
+
+- `spec/commercial-shell.md` — added Licensing section referencing the new template and spec.
+
+---
+
 ## [0.6.1] — 2026-06-02
 
 ### Changed
