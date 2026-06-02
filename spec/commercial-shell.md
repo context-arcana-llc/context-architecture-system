@@ -234,6 +234,12 @@ The shell version is declared in both `CONTEXT.md` frontmatter and `shell/README
 
 ---
 
+## Licensing
+
+Every commercial shell must include a `SHELL-LICENSE.md` at the repository root governing the client's use of the `shell/` directory. A ready-to-use template is at [`templates/shell-license.md`](../templates/shell-license.md). The licensing structure and required terms are defined in the [Commercial Shell Licensing spec](commercial-license.md).
+
+---
+
 ## Author responsibilities
 
 The shell author is responsible for:
