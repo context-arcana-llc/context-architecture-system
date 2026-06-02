@@ -93,6 +93,8 @@ To the fullest extent permitted by applicable law, the Licensor's total liabilit
 
 This Agreement is governed by the laws of [STATE/PROVINCE, COUNTRY], without regard to conflict of law principles. Any dispute arising under this Agreement shall be resolved in the courts of [JURISDICTION].
 
+> **Context Arcana LLC shells:** use "the State of Colorado, United States of America" and "the State of Colorado".
+
 ---
 
 ## 11. Entire Agreement
