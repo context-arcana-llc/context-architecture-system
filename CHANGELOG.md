@@ -7,6 +7,14 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.6.1] — 2026-06-02
+
+### Changed
+
+- All five export adapters now open with self-guiding content in two parts: human setup instructions specific to each tool (which field to use, which button to click, copy commands for Cursor), followed by model activation instructions that tell the AI to confirm context is loaded, list available sections, and ask the user what they want to work on. Exports are now usable without reading any external documentation.
+
+---
+
 ## [0.6.0] — 2026-06-02
 
 ### Added

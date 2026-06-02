@@ -1,4 +1,4 @@
-# Context Architecture System™ — v0.6.0
+# Context Architecture System™ — v0.6.1
 
 The owned context layer beneath your AI tools.
 
