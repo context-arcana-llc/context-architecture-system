@@ -1,0 +1,23 @@
+{
+  "name": "@context-arcana/cas",
+  "version": "0.4.0",
+  "description": "CLI for the Context Architecture System — validate shells, export context",
+  "bin": {
+    "cas": "./bin/cas.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/context-arcana-llc/context-architecture-system",
+    "directory": "cli"
+  }
+}
