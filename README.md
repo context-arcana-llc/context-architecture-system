@@ -113,6 +113,7 @@ Install once with `git config core.hooksPath .githooks`. Binary files (images, P
 
 | Guide | What it covers |
 |---|---|
+| [`docs/workflow-guide.md`](docs/workflow-guide.md) | Daily session workflow — load, work, save, resume |
 | [`docs/export-guide.md`](docs/export-guide.md) | How to use `cas export` and each adapter |
 | [`docs/portability-guide.md`](docs/portability-guide.md) | What portability means and how to move between tools |
 
