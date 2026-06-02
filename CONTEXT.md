@@ -1,18 +1,21 @@
+---
+cas_version: "0.1.0"
+type: personal
+owner: "[Your name or organization]"
+domain: "[What field, industry, or purpose this covers]"
+created: "YYYY-MM-DD"
+updated: "YYYY-MM-DD"
+---
+
 # CONTEXT.md
 
 > This file is the machine-readable context summary for this repository.
 > Read by: AI models, coding agents, workflow tools, retrieval systems.
 > Updated by: the repository owner.
-> Last updated: YYYY-MM-DD
 
 ---
 
 ## About this context
-
-**Owner:** [Your name or organization]
-**Type:** [Personal / Business / Project]
-**Domain:** [What field, industry, or purpose this covers]
-**CAS version:** 0.1.0
 
 [Brief description of what this context repository represents and who it's for.]
 

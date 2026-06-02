@@ -1,18 +1,21 @@
+---
+cas_version: "0.1.0"
+type: business
+owner: "Riverstone Coffee Roasters LLC"
+domain: "Small-batch specialty coffee roastery — wholesale and retail"
+created: "2026-05-10"
+updated: "2026-05-10"
+---
+
 # CONTEXT.md
 
 > This file is the machine-readable context summary for this repository.
 > Read by: AI models, coding agents, workflow tools, retrieval systems.
 > Updated by: the repository owner.
-> Last updated: 2026-05-10
 
 ---
 
 ## About this context
-
-**Owner:** Riverstone Coffee Roasters LLC
-**Type:** Business
-**Domain:** Small-batch specialty coffee roastery — wholesale (cafes, restaurants) and retail (subscription, farmer's market)
-**CAS version:** 0.1.1
 
 Riverstone Coffee Roasters is a small-batch specialty coffee roastery founded in 2023, operating out of a renovated mill in Hollingford. We source single-origin green coffee through direct-trade relationships and roast in 5kg batches (upgrading to 12kg in June 2026). Approximately 70% of revenue is wholesale to regional cafes and restaurants; 30% is retail through a subscription program and a Saturday farmer's market booth. Two full-time employees plus the founder.
 
