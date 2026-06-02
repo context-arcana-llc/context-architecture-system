@@ -1,4 +1,4 @@
-# Context Architecture System™ — v0.4.0
+# Context Architecture System™ — v0.5.0
 
 The owned context layer beneath your AI tools.
 
@@ -81,6 +81,23 @@ The `spec/` directory contains the formal CAS specifications. These define what 
 | [`spec/manifest-schema.md`](spec/manifest-schema.md) | YAML frontmatter schema for `CONTEXT.md` |
 | [`spec/required-files.md`](spec/required-files.md) | Which files and directories must be present in a valid shell |
 | [`spec/commercial-shell.md`](spec/commercial-shell.md) | The `shell/` directory structure for commercial shells |
+
+---
+
+## Validator
+
+```bash
+cd cli && npm install
+node bin/cas.js validate /path/to/your/shell
+```
+
+Or validate the current directory:
+
+```bash
+node bin/cas.js validate
+```
+
+The validator checks your shell against the spec and reports PASS, WARN, or FAIL for each rule. Exit code 0 on pass, 1 on failure — works in CI.
 
 ---
 

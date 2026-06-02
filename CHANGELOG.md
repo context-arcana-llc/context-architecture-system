@@ -7,6 +7,23 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.5.0] — 2026-06-01
+
+### Added
+
+- `cli/` — Node.js CLI package (`@context-arcana/cas`). Implements `cas validate [path]` with colored PASS/WARN/FAIL output and a non-zero exit code on failure, making it suitable for CI use.
+- `cli/src/checks/manifest.js` — validates YAML frontmatter presence, required fields, type enum, semver format, ISO 8601 dates, staleness, and commercial shell fields.
+- `cli/src/checks/files.js` — validates required and recommended files and directories per shell type, including all eleven standard `context/` subdirectories and commercial `shell/` requirements.
+- `cli/src/reporter.js` — colored terminal reporter with summary line.
+- `cli/test/` — five fixture shells covering valid personal, valid commercial, missing `context/` directory, invalid manifest type, and missing frontmatter. All fixtures pass their expected outcomes.
+- `.github/workflows/validate.yml` — CI workflow that runs fixture tests and validates the Riverstone Coffee example on every push and PR.
+
+### Changed
+
+- `examples/riverstone-coffee/` — updated to pass `cas validate` with zero warnings. Added `README.md`, `SETUP_PROMPT.md`, `AGENTS.md`, `.githooks/` stubs, four missing `context/` subdirectories, and the missing `2025-09_direct-trade-shift.md` decision record. Added `language: en` to frontmatter.
+
+---
+
 ## [0.4.0] — 2026-06-01
 
 ### Added
