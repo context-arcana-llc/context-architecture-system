@@ -7,6 +7,26 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.4.0] — 2026-06-01
+
+### Added
+
+- `spec/shell-body.md` — formal Shell/Body Specification. Defines the three shell types (personal, business, commercial), their directory structures, the `shell/` author layer introduced for commercial shells, shell declaration fields in `CONTEXT.md`, and the loose Body definition (any tool that reads plain text files).
+- `spec/manifest-schema.md` — Manifest Schema. Defines YAML frontmatter as the machine-readable manifest in `CONTEXT.md`, with required fields for all shell types and additional required fields for commercial shells. Includes validation rules (FAIL / WARN) ready for the Week 2 validator.
+- `spec/required-files.md` — Required File Specification. Defines which files and directories must be present in a valid CAS Shell, which produce warnings if absent, and which are optional. Includes explicit validation checklists for personal, business, and commercial shells.
+- `spec/commercial-shell.md` — Commercial Shell Format. Defines the full `shell/` directory structure, required content and sections for `shell/README.md`, `shell/instructions.md`, and `shell/constraints.md`, conventions for `shell/knowledge/` and `shell/prompts/`, installation steps for clients, and semantic versioning rules for shell releases.
+
+### Changed
+
+- `CONTEXT.md` — updated template to include YAML frontmatter conforming to the Manifest Schema.
+- `examples/riverstone-coffee/CONTEXT.md` — updated to conform to the Manifest Schema.
+- `README.md` — corrected content license from CC BY-SA 4.0 to CC BY 4.0.
+- `LICENSING` — corrected `LICENSE-CODE` reference to `LICENSE`.
+- `PRINCIPLES.md` — corrected license reference from CC BY-SA 4.0 to CC BY 4.0 and updated `LICENSE-DOCS.md` link to `LICENSE-CONTENT`.
+- `AGENTS.md` — updated writing style note to reflect that YAML frontmatter is now standard in `CONTEXT.md`.
+
+---
+
 ## [0.3.0] — 2026-05-24
 
 ### Added
