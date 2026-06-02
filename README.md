@@ -36,17 +36,15 @@ A minimal, Git-tracked folder structure for keeping your business context in fil
 
 ## Quick start
 
-> **New to Git?** See [`INSTALL.md`](INSTALL.md) for a step-by-step walkthrough — including a no-Git path that gets you started in about 3 minutes.
+> **Want to start your own shell?** Use the minimal starter template — it contains only what you need, none of the framework machinery.
 >
-> **Want to see what populated context looks like first?** Browse [`examples/riverstone-coffee/`](examples/riverstone-coffee/) — a fictional small business with every major folder filled in.
+> **→ [github.com/context-arcana-llc/cas-shell-template](https://github.com/context-arcana-llc/cas-shell-template)**
 
-1. **Use this template** — click "Use this template" on GitHub, or clone and re-initialize
-2. **Install the git hooks** (one-time, per clone) — run `bash setup.sh` (macOS / Linux) or `.\setup.ps1` (Windows PowerShell). Or do it manually:
-   ```bash
-   git config core.hooksPath .githooks
-   chmod +x .githooks/pre-commit .githooks/pre-push  # macOS / Linux only
-   ```
-3. **Fill in `CONTEXT.md`** — update the YAML frontmatter at the top with your name, type (`personal`, `business`, or `commercial`), domain, and today's date
+> **Want to see what a populated shell looks like first?** Browse [`examples/riverstone-coffee/`](examples/riverstone-coffee/) — a fictional small business with every major folder filled in.
+
+1. **Use the template** — click "Use this template" on [cas-shell-template](https://github.com/context-arcana-llc/cas-shell-template)
+2. **Install the git hooks** (one-time, per clone) — run `bash setup.sh` (macOS / Linux) or `.\setup.ps1` (Windows PowerShell)
+3. **Fill in `CONTEXT.md`** — update the YAML frontmatter with your name, type (`personal`, `business`, or `commercial`), domain, and today's date
 4. **Activate with your AI** — paste the contents of `SETUP_PROMPT.md` into a new conversation
 5. **Start adding context** — drop files into the appropriate `context/` subfolder
 
