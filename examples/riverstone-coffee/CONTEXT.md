@@ -5,6 +5,7 @@ owner: "Riverstone Coffee Roasters LLC"
 domain: "Small-batch specialty coffee roastery — wholesale and retail"
 created: "2026-05-10"
 updated: "2026-05-10"
+language: en
 ---
 
 # CONTEXT.md

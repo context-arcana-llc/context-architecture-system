@@ -1,0 +1,2 @@
+#!/bin/sh
+# Secret scanner — see repo root .githooks/pre-commit for full implementation
