@@ -1,7 +1,7 @@
 # Export Guide
 
 **CAS Version:** 0.1
-**CLI Version:** 0.5.0+
+**CLI Version:** 0.6.0+
 
 ---
 

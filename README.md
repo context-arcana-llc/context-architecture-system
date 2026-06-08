@@ -71,7 +71,7 @@ A minimal, Git-tracked folder structure for keeping your business context in fil
 
 ## Specification
 
-The `spec/` directory contains the formal CAS specifications. These define what a valid shell looks like and are the basis for the `cas validate` command (coming in v0.5.0).
+The `spec/` directory contains the formal CAS specifications. These define what a valid shell looks like and are the basis for the `cas validate` command.
 
 | Document | What it defines |
 |---|---|
